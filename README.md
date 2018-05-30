@@ -18,7 +18,7 @@ Object Interaction & Responsibility
 
 ## Python Interfaces
 
-[abstract & implementation classes](./interfaces/abstract_implementation.py)
+[Abstract & Implementation classes](./interfaces/abstract_implementation.py)
 
 - Originally Python had intermediate classes used as `mixins`. This is though an __implementation__ not an __abstraction.__
 - Best practice: to code towards abstraction vs implementation.
@@ -60,3 +60,10 @@ class MyAbstractClass(metaclass=abc.ABCMeta):
     def abstract_property(self):
         # Required property
 ```
+
+## Strategy Pattern
+
+- Family of Algorithms
+- Encapsulate them
+- Make them interchangeable
+- Algorithms vary independently
